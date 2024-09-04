@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+
+.formFlex{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: 5vw;
+  text-align: center;
+  outline: 2px solid black;
+  outline-offset: 10px;
+  background-color: lightsteelblue;
+}
+
+.stuDetailsDiv, .subDiv, .marks1Div, .marksDiv, .marks2Div, .resultsDiv{
+  margin: 1%;
+}
+
+.stuDetailsDiv{
+  width: 100%;
+  text-align: left;
+}
+
+/* .subDiv{
+  width: fit-content;
+} */
+
+.marksDiv{
+  min-width: 260px;
+}
+
+.marks1Div{
+  width: 28%;
+}
+
+.marks2Div{
+  width: 29%;
+}
+
+.resultsDiv{
+  width: 100%;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.marksDiv input{
+  text-align: center;
+  width: 85px;
+}
+
+input{
+  margin: 10px;
+  height: 20px;
+}
+
+.marksLabel label{
+  display: inline-block;
+  width: 85px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.stuDetailsDiv label{
+  display: inline-block;
+  width: 170px;
+}
+
+.stuDetailsDiv legend{
+  margin-bottom: 10px;
+  text-shadow: 10px 10px 10px black;
+}
+
+/* span{
+  display: inline-block;
+  width: 50px;
+} */
+
+legend{
+  font-size: 2rem;
+  height: 50px;
+  margin-bottom: 40px;
+  font-family: "Baskervville SC", serif;
+}
